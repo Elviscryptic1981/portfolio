@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Elvis kimani</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">about</a></li>
+                <li><a href="#hobby">hobby</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+   <nav id="hamburger-nav">
+    <div class="logo">Elvis kimani</div>
+     <div class="hamburger-nav-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="menu-link">
+        <li><a href="#about" onclick="toggleMenu()">about</a></li>
+        <li><a href="#hobby" onclick="toggleMenu()">hobby</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">contact</a></li>  
+    </div>
+   </nav>
+   <h1>Hello, Am Elvis </h1> 
+   <img src="images/rn_image_picker_lib_temp_c93d4dea-929d-4279-a741-fdb1e914b47b.jpg" alt="me">
+    <p>I am a software developer student learning both front end and back end development</p>
+</body>
+</html>
